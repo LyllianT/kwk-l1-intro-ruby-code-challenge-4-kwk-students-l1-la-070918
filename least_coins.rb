@@ -18,7 +18,8 @@ def least_coins(cents)
     :dime += 1
   elsif cents >= 5
     :nickel += 1
-  elsif cents >=
+  elsif cents >= 1
+    :pennies += 1
   end
 end
 puts least_coins(5)
