@@ -12,7 +12,7 @@ coin_type = {
 cents = gets.strip
 
 def least_coins(cents)
-  if cents >= 25 && 
+  if cents >= 25 
     :quarters += 1
   elsif cents >= 10
     :dime += 1
